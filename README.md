@@ -13,3 +13,7 @@ boot,swap,ext4.<br>
 *d.* The next step is to **configure the kernel**. Choose a method, for instance genkernel. <br>
 *e.* **Configure the system**. Be careful when you create ```fstab```, since when you reboot you may consider ```kernel panic```<br>
 You have to set the hostname,network, set root password, set openshh, set a new user with wheel group, and add the group ```wheel``` to the sudoers file.<br>
+*f.* set the **bootloader** grub or lilo.
+*g.* **poweroff** (exit,unmount,poweroff).<br>
+Now start from the drive :<br>
+ ```$./start_Gentoo_VM.sh```
