@@ -11,5 +11,5 @@ boot,swap,ext4.<br>
 *b.* Continue with fixing date, **download the stage tar**, set for instance ```MAKEOPTS="-j4" ``` in ```/etc/portage/make.conf```<br>
 *c.* Continue with mounting,chrooting, select profile, set license and **installing the base system**<br>
 *d.* The next step is to **configure the kernel**. Choose a method, for instance genkernel. <br>
-*e.* **Configure the system**. Be careful when you create ```fstab```, since when you reboot you may consider ```kernel panic```
-
+*e.* **Configure the system**. Be careful when you create ```fstab```, since when you reboot you may consider ```kernel panic```<br>
+You have to set the hostname,network, set root password, set openshh, set a new user with wheel group, and add the group ```wheel``` to the sudoers file.<br>
