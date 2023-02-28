@@ -8,7 +8,7 @@ To boot from "cd" :
 *a.* start from the **partition** [partition documentation](https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Disks) <br>
 In partition tables you have to replace ```/dev/sdaX``` that you read from handbook with ```/dev/vdaX```. Continue with the filesystem
 boot,swap,ext4.<br>
-*b.* Continue with fixing date, **download the stage tar**, set ```MAKEOPTS="-j4" ``` in ```/etc/portage/make.conf```<br>
+*b.* Continue with fixing date, **download the stage tar**, set for instance ```MAKEOPTS="-j4" ``` in ```/etc/portage/make.conf```<br>
 *c.* Continue with mounting,chrooting, select profile, set license and **installing the base system**<br>
 *d.* The next step is to **configure the kernel**. Choose a method, for instance genkernel. <br>
 *e.* **Configure the system**. Be careful when you create ```fstab```, since when you reboot you may consider ```kernel panic```
