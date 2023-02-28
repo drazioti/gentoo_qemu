@@ -10,5 +10,6 @@ In partition tables you have to replace ```/dev/sdaX``` that you read from handb
 boot,swap,ext4.<br>
 *b.* Continue with fixing date, **download the stage tar**, set ```MAKEOPTS="-j4" ``` in ```/etc/portage/make.conf```<br>
 *c.* Continue with mounting,chrooting, select profile, set license and **installing the base system**<br>
-*d.* 
+*d.* The next step is to **configure the kernel**. Choose a method, for instance genkernel. <br>
+*e.* **Configure the kernel**. Be careful when you create ```fstab```, since when you reboot you may consider ```kernel panic```
 
