@@ -1,7 +1,7 @@
 # gentoo_qemu<br>
 Create an image 30G (at least)
 1. ```$qemu-img create -f qcow2 Gentoo-VM.img 30G```
-2. Download iso gentoo e.g. https://gentoo-mirror.alexxy.name//releases/amd64/autobuilds/20230220T081656Z/install-amd64-minimal-20230220T081656Z.iso
+2. Download iso gentoo e.g. stage3-amd64-desktop-openrc-...tar.xz
 To boot from **cd** :
 3. ```$./start_Gentoo_VM.sh -boot d -cdrom install-amd64-minimal-20230220T081656Z.iso```
 4. Follow the handbook (for amd64). <br>
