@@ -16,7 +16,8 @@ Select profile, set license and **installing the base system**<br>
 After chrooting, ypu have to configure portage by ```$emerge-webresync```<br>
 *d.* The next step is to **configure the kernel**. Choose a method, for instance genkernel. <br>
 *e.* **Configure the system**. Be careful when you create ```fstab```, since when you reboot you may consider ```kernel panic```<br>
-You have to set the hostname,network, set root password, set openshh, set a new user with wheel group, and add the group ```wheel``` to the sudoers file.<br>
+You have to set the hostname,network, set root password, set openshh, set a new user with wheel group, and add the group ```wheel``` to the sudoers file,<br>
+e.g. <br> ```$visudo```
 *f.* set the **bootloader** grub or lilo.<br>
 *g.* **poweroff** (exit,unmount,poweroff).<br>
 Now boot from the **drive** :<br>
