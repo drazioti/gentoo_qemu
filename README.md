@@ -13,6 +13,7 @@ This is step is important, since after you mount you can close the virtual machi
 *c.* Continue with mounting other basic systems to /mnt/gentoo, and then chrooting.
 Again, this is important, you can close the vm, and after mounting+chrooting you can continue the set up.<br>
 Select profile, set license and **installing the base system**<br>
+After chrooting, ypu have to configure portage by ```$emerge-webresync```<br>
 *d.* The next step is to **configure the kernel**. Choose a method, for instance genkernel. <br>
 *e.* **Configure the system**. Be careful when you create ```fstab```, since when you reboot you may consider ```kernel panic```<br>
 You have to set the hostname,network, set root password, set openshh, set a new user with wheel group, and add the group ```wheel``` to the sudoers file.<br>
