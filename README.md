@@ -9,7 +9,7 @@ To boot from **cd** :
 In partition tables you have to replace ```/dev/sdaX``` that you read from handbook with ```/dev/vdaX```. Continue with the filesystem
 boot,swap,ext4.<br>
 *b.* Continue with mounting /dev/vda3, fixing date, **download the stage3 tar**, e.g. ```stage3-amd64-desktop-openrc-...tar.xz```, set for instance ```MAKEOPTS="-j4" ``` in ```/etc/portage/make.conf```<br>
-This step is important, since after mounting, you can close the virtual machine, and later remounting tha partiotion you will continue from tha last point<br>
+This step is important, since after mounting, you can close the virtual machine, and later remounting the partition, you can continue from tha last point<br>
 *c.* Continue with mounting other basic systems to /mnt/gentoo, and then chrooting.
 Again, this is important, you can close the vm, and after mounting+chrooting you can continue the set up.<br>
 Select profile, set license and **installing the base system**<br>
